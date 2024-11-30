@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Add fontawesome CDN link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"/>
+    <!-- Add CSS file -->
+    <link rel="stylesheet" href="music.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    
+</head>
+
+<body>
+
+    <div class="box center">
+        
+        <div class="box-1 center">
+            <div class="logo">
+                <img src="https://cdn-icons-png.flaticon.com/128/3669/3669986.png">
+                
+            </div>
+
+            <h4 id="name">Akon</h4>
+         
+            <div class="art">
+                <img class="center" id="artist" src="https://i.scdn.co/image/ab67616d0000b273f6e36c5147681093d71b3efe" alt="Akon Album Art">
+            </div>
+
+            <div class="art-name">
+                <p class="title">Right-Now</p>
+            </div>
+            <div class="prog">
+                <div class="time">
+                    <div class="start">
+                        <p id="start">0.00</p>
+                    </div>
+                    <div class="end">
+                        <p id="end">0.00</p>
+                    </div>
+                </div>
+                <div class="line">
+                    <div class="linechild"></div>
+                </div>
+                <div class="msc center">
+                    <div class="ctrl center" onclick="backward()">
+                        <i class="fa-solid fa-backward-step"></i>
+                    </div>
+                    <div class="ctrl center" id="playsong">
+                        <i class="fa-solid fa-play"></i>
+                        <i class="fa-solid fa-pause none"></i>
+                    </div>
+                    <div class="ctrl center" onclick="forward()">
+                        <i class="fa-solid fa-forward-step"></i>
+                    </div>
+                    <audio src="./Right-Now-(Na-Na-Na)(PagalNew.Com.Se).mp3" class="song"></audio>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Add JavaAcript file-->
+    <script src="music.js"></script>
+</body>
+</html>
