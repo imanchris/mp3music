@@ -1,4 +1,4 @@
- /* General Reset */
+  /* General Reset */
 * {
     margin: 0;
     padding: 0;
@@ -24,6 +24,19 @@ body {
     width:40px;
    
    }
+   .fa-share {
+    font-size: 2em;        /* Increase the size */
+    color: #ffffff;        /* Change the color */
+    transition: transform 0.3s;  /* Add transition effect */
+    margin-left: 500px;
+    width:40px;
+    border-radius: 100px;
+}
+
+.fa-share:hover {
+    transform: scale(1.2); 
+    color:rgb(15, 221, 15) ; /* Scale the icon on hover */
+}
 .center {
     display: flex;
     justify-content: center;
@@ -63,6 +76,20 @@ body {
 .art {
     margin-bottom: 20px;
 }
+.fa-heart {
+    font-size: 2em;        /* Increase the size */
+    color: #ffffff;        /* Change the color */
+    transition: transform 0.3s;  /* Add transition effect */
+    margin-left: 500px;
+    width:40px;
+    border-radius: 100px;
+}
+
+.fa-heart:hover {
+    transform: scale(1.2); 
+    color:rgb(15, 221, 15) ; /* Scale the icon on hover */
+}
+ 
 
 #artist {
     width: 150px;
